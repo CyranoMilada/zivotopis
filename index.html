@@ -5,35 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Životopis Milada Horáčková</title>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Sekce hlavička-->
-    <header>
-      <h1>Milada HORÁČKOVÁ</h1>
+    <header class="hlavicka">
+      <h1>MILADA HORÁČKOVÁ</h1>
     </header>
 
     <!-- Sekce O mně-->
     <section class="O mne">
-      Beroun 17.8.1980 + 420 777 129 320 horamili@seznam.cz Pracovní nasazení,
-      preciznost, týmová práce, loajalita, spolehlivost, smysl pro humor
+      <img class="foto-uvod" src="obrazky/foto1.jpg" alt="Foto O mne">
+      <div class="adresa">
+      Beroun <br>
+      17.8.1980 <br>
+      + 420 777 129 320 <br>
+     <a href="mailto horamili@seznam.cz"> horamili@seznam.cz </a> 
+    </div>
     </section>
+
+    <section class="vlastnosti">
+      <ul>
+        <li>Pracovní nasazení</li>
+        <li>preciznost</li>
+        <li>týmová práce</li>
+        <li>loajalita</li>
+        <li>spolehlivost</li>
+        <li>smysl pro humor</li>
+      </ul>
+    </section>
+    
 
     <!-- Sekce Pracovní zkušenosti-->
     <section class="prace">
-      <h2>PRACOVNÍ ZKUŠENOSTI:</h2>
+      <h2>PRACOVNÍ ZKUŠENOSTI</h2>
 
-      <p>12/2019 – Trask solution a.s.</p>
-      <h3>Tester</h3>
+      <h3>12/2019 – Trask solution a.s.</h3>
+      <p class="pozice">Tester</p>
       <p>
         Testování SW aplikací podle připravených scénářů, práce s S-cube, Jira,
         Confluence. Úprava testů dle nových testovacích scénářů, reportování
         chyb, úprava testů.
       </p>
 
-      <p>11/2011 - XLMX OBCHODNÍ S.R.O.</p>
-      <h3>Prodejce – poradce</h3>
+      <h3>11/2011 - XLMX OBCHODNÍ S.R.O.</h3>
+      <p class="pozice">Prodejce – poradce</p>
       <p>
         Prodej, komunikace a jednání se zákazníky, navazování kontaktů.
         Zjišťování potřeb zákazníků a nabídka vhodných produktů. Konfigurace a
@@ -42,9 +60,9 @@
         emailových a telefonických dotazů.
       </p>
 
-      <p>09/2003 – 05/2011 DDM hl. m. Prahy</p>
-      <h3>Zástupce ředitele - pedagog volného času</h3>
-      <p>
+      <h3>09/2003 – 05/2011 DDM hl. m. Prahy</h3>
+      <p class="pozice">Zástupce ředitele - pedagog volného času</p>
+        <p>
         Administrativní práce, zpracování pošty, vyřizování telefonických
         dotazů. Příprava propagačních materiálů. Vedení statistických hodnocení,
         měsíční výkazy návštěvnosti, příprava a vedení pedagogické dokumentace.
@@ -63,7 +81,7 @@
 
     <!-- Sekce Vzdělání-->
     <section class="vzdelani">
-      <h2>VZDĚLÁNÍ:</h2>
+      <h2>VZDĚLÁNÍ</h2>
 
       <p>09/1993 – 08/1999</p>
       <p>
@@ -74,30 +92,42 @@
 
     <!-- Sekce Jazyky-->
     <section class="jazyky">
-      <h2>JAZYKOVÉ DOVEDNOSTI:</h2>
+      <h2>JAZYKOVÉ DOVEDNOSTI</h2>
       <p>Anglický jazyk : pokročilá</p>
       <p>Německý jazyk : mirne pokrocila</p>
     </section>
 
-    <!-- Sekce Znalosti-->
-    <section class="znalosti">
-      <h2>TECHHNICKÉ ZNALOSTI A JINÉ SCHOPNOSTI:</h2>
-      Základy testování, tvorba webu pomocí HTML a CSS, responzivní webdesign,
-      základy Bootstrap, základy programovacího jazyku Java a PHP, Wordpress,
-      Canva. Znalost MS Office: Excel, Word, Powerpoint, Outlook Psaní na
-      počítači všemi deseti Řidičský průkaz skupiny B, B+E – aktivní řidička
-    </section>
-
     <!-- Sekce kurzy-->
     <section class="kurzy">
-      <h2>KURZY A ŠKOLENÍ:</h2>
-      Základy týmové spolupráce Komunikace Manažerské řízení Klíčové kompetence
+      <h2>KURZY A ŠKOLENÍ</h2>
+      Základy týmové spolupráce <br>
+      Komunikace <br>
+      Manažerské řízení <br>
+      Klíčové kompetence
     </section>
+
+        <!-- Sekce Znalosti-->
+        <section class="znalosti">
+          <h2>TECHNICKÉ ZNALOSTI A JINÉ SCHOPNOSTI</h2>
+          Základy testování, tvorba webu pomocí HTML a CSS, responzivní webdesign,
+          základy Bootstrap, základy programovacího jazyku Java a PHP, Wordpress,
+          Canva. Znalost MS Office: Excel, Word, Powerpoint, Outlook Psaní na
+          počítači všemi deseti Řidičský průkaz skupiny B, B+E – aktivní řidička
+        </section>
 
     <!-- Sekce zájmy-->
     <section class="zajmy">
-      <h2>ZÁJMY:</h2>
-      Cestování, plavání, tenis, lyžování, jízda na koni, četba, vzdělávání se.
+      <h2>ZÁJMY</h2>
+      <ul>
+        <li>Cestování</li>
+        <li>plavání</li>
+        <li>tenis</li>
+        <li>lyžování</li>
+        <li>jízda na koni</li>
+        <li>četba</li>
+        <li>vzdělávání se.</li>
+      </ul>
+      
     </section>
 
     
