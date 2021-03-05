@@ -64,12 +64,15 @@ a {
     display: inline-block;
 }
 
+table td {
+    width: 30%;
+}
+
 .tab-nazev {
   font-size: 25px;
   font-weight: bold;
   font-style: italic;
   text-align: center;
-  width: 400px;
 }
 
 .tab-radek {
